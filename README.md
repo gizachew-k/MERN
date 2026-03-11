@@ -1,2 +1,2 @@
 # MERN
-mern full stack training
+my mern full stack training 
