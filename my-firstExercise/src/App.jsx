@@ -1,12 +1,15 @@
 import { useState } from 'react'
 //  import UserCard from './UserCard.jsx'
 // import Profile from './components/Profile.jsx'
+import Counter from './components/Counter.jsx'
 import './App.css'
 
 function App() {
   // const [count, setCount] = useState(0);
   return (
     <div>
+
+       <Counter />
       {/* <h1>WELLOCOM TO REACT TRAINING </h1>
   
       {/* passing props to the user card component? */}
@@ -35,11 +38,12 @@ function App() {
    email="yohaness@gmail.com"
    role="NET Developer"
    /> */}
-
+    
    <h1 id="hello">hello dear student</h1>
     <button onClick={() => {
         document.getElementById('hello').innerText = "Welcome to MERN training"}}>click me</button>    
-        </div>
+       
+        </div>   
   );
 }
 
