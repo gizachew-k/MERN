@@ -2,6 +2,7 @@ import { useState } from 'react'
 //  import UserCard from './UserCard.jsx'
 // import Profile from './components/Profile.jsx'
 import Counter from './components/Counter.jsx'
+// import TodoList from './components/TodoList.jsx'
 import './App.css'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div>
 
        <Counter />
-      {/* <h1>WELLOCOM TO REACT TRAINING </h1>
+       {/* <TodoList /> */}
+      {/* <h1>WELLOCOM TO REACT TRAINING </h1> */}
   
       {/* passing props to the user card component? */}
        {/* <UserCard name="Gizachew " course="Full Stack Development" />
