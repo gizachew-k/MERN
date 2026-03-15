@@ -2,7 +2,7 @@
 
 @theme {
   /* Adding a custom color */
-  --color-brand: #3b82f6;
+  --color-brand: green;
   /* Adding a custom font */
   --font-display: "Poppins", sans-serif;
   /* Overriding a breakpoint */
