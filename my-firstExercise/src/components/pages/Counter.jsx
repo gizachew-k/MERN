@@ -5,8 +5,8 @@ function Counter() {
 return(
 <>
 <h2> counter: {count}</h2>
-<button onClick={()=>setCount(count+1)}>
-Increase
+<button onClick={()=>setCount(count+1)}> 
+Increase button
 </button>
 </>
 )
