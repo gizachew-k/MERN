@@ -1,7 +1,7 @@
 // Import React and useState hook
 import React, { useState } from 'react';
 // Import useNavigate for navigation
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 
 // Create and export Register component
 const Register = () => {

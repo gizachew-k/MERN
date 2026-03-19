@@ -1,7 +1,7 @@
 // Import React library
 import React from 'react';
 // Import Link component for navigation 
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 // Create and export Navbar component
 const Navbar = () => {

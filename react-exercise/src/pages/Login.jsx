@@ -1,7 +1,7 @@
 // Import React and useState hook for form state
 import React, { useState } from 'react';
 // Import useNavigate for programmatic navigation
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 
 // Create and export Login component
 const Login = () => {
