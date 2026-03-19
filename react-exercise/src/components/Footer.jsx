@@ -8,11 +8,12 @@ const Footer = () => {
 
   return (
     // Footer with dark background
-    <footer className="bg-gray-800 text-white py-6 mt-auto">
+    //bg-gray-500 sets background color, text-white sets text color, py-6 adds vertical padding, mt-auto pushes footer to bottom
+    <footer className="bg-gray-500 text-white py-6 mt-auto">
       {/* Centered container */}
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center h-20">
         {/* Copyright text */}
-        <p>&copy; {currentYear} AuthApp. All rights reserved.</p>
+        <p>&copy; {currentYear} gizachew kassa. All rights reserved.</p>
       </div>
     </footer>
   );
