@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+/* Adding a custom color */
+--color-brand: #3b82f6;
+
+/* Adding a custom font */
+--font-display:"Poppins", sans-serif;
+
+/* Overriding a breakpoint */
+--breakpoint-tablet: 600px;
+}
