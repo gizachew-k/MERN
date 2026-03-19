@@ -80,7 +80,8 @@ function Login()     {
             {/* Submit button */}
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
+              //w-full makes the button take full width, bg-blue-600 sets background color, text-white sets text color, font-bold makes text bold, py-2 and px-4 add padding, rounded makes corners rounded, hover:bg-blue-700 changes background on hover
+              className="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-green-700"
               >
               Sign In
             </button>

@@ -7,7 +7,7 @@ import { Link } from 'react-router';
 const Navbar = () => {
   return (
     // Navigation bar with styling
-    <nav className="bg-gray-800 text-white p-4">
+    <nav className="bg-blue-800 text-white p-4">
       {/* Container to center content */}
       <div className="container mx-auto flex justify-between items-center">
         {/* Navigation links container */}

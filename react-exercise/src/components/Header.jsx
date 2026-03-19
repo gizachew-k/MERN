@@ -4,8 +4,8 @@ import React from 'react';
 // Create and export Header component
 const Header = () => {
   return (
-    // Header section with blue background
-    <header className="bg-blue-600 text-white py-12">
+    // Header section with black background
+    <header className="bg-black text-white py-12">
       {/* Centered container */}
       <div className="container mx-auto text-center">
         {/* Main heading */}
