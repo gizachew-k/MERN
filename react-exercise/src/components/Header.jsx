@@ -10,11 +10,11 @@ const Header = () => {
       <div className="container mx-auto text-center">
         {/* Main heading */}
         <h1 className="text-4xl font-bold mb-4">
-          Welcome to AuthApp
+          Welcome 
         </h1>
         {/* Subheading */}
         <p className="text-xl">
-          Secure authentication for your applications
+          simple website with  login and registration functionality
         </p>
       </div>
     </header>

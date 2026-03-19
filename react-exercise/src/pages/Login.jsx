@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router';
 
 // Create and export Login component
-const Login = () => {
+function Login()     {
   // State variables for form inputs and error message
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -18,16 +18,12 @@ const Login = () => {
     e.preventDefault(); // Prevent page refresh
     
     // Basic validation
-    if (!email || !password) {
+    if (email=== '' || password === '') {
       setError('Please fill in all fields');
       return;
     }
-    
     // Clear any previous errors
     setError('');
-    
-    // Here you would typically make an API call
-    console.log('Login attempt:', { email, password });
     
     // Show success message
     alert('Login successful!');
@@ -35,7 +31,6 @@ const Login = () => {
     // Redirect to home page
     navigate('/');
   };
-
   return (
     // Main container
     <div className="container mx-auto p-8">
@@ -86,7 +81,7 @@ const Login = () => {
             <button
               type="submit"
               className="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
-            >
+              >
               Sign In
             </button>
           </form>
