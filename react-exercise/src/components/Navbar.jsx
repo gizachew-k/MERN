@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* Navigation links container */}
         <div className="flex space-x-4">
           {/* Link components for client-side routing */}
-          <Link to="/" className="hover:text-gray-300">
+          <Link to="/" className="hover:text-white-300">
             Home
           </Link>
           <Link to="/login" className="hover:text-gray-300">
