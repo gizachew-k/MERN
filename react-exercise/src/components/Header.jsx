@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container mx-auto text-center">
       {/* text-4xl sets font size, font-bold makes it bold, mb-7 adds margin below */}
         <h1 className="text-4xl font-bold mb-7">
-          Welcome to website
+          Welcome to website/tring again
         </h1>
     
         <p className="text-xl">
