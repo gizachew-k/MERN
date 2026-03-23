@@ -13,7 +13,7 @@ const Header = () => {
         <h1 className="text-4xl font-bold mb-7">
           Welcome to website/tring again
         </h1>
-    
+          <p>helloo</p>
         <p className="text-xl">
           simple  react website with  login and registration functionality
         </p>
