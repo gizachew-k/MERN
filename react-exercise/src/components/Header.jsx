@@ -15,7 +15,7 @@ const Header = () => {
         </h1>
     
         <p className="text-xl">
-          simple website with  login and registration functionality
+          simple  react website with  login and registration functionality
         </p>
       </div>
     </header>
